@@ -1,6 +1,6 @@
-let photo = document.getElementById("photo")
+const photo = document.getElementById("photo")
 
-let photoArray =
+const photoArray =
 [
     "img/dog.jpg",
     "img/pan.jpg",
