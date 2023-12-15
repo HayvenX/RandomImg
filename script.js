@@ -9,14 +9,13 @@ const photoArray =
     "img/rice.jpg"
 ]
 
-function RandomNumber(max)
+function RandomNumber()
 {
-    return Math.floor(Math.random() * max)
+    return Math.floor(Math.random() * photoArray.length)
 }
 
 function RandomPhoto()
 {
-    RandomNumber(5)
     photo.setAttribute("src", photoArray[RandomNumber(5)])
 }
 setInterval(RandomPhoto, 2500)
